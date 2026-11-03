@@ -1,0 +1,19 @@
+{
+  "name": "todomvc-logic-tests",
+  "version": "1.0.0",
+  "description": "Модульні та інтеграційні тести логіки списку завдань TodoMVC",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testomatio/reporter": "^2.22.0",
+    "jest": "^30.5.2"
+  }
+}
