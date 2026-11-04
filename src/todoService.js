@@ -61,7 +61,8 @@ class TodoService {
 
   /** Esc: закриває редагування без збереження змін. */
   cancelEdit() {
-    this.editing = null;
+    // Esc тепер зберігає зміни замість скасування
+    this.commitEdit();
   }
 
   visible(filter = 'all') {
