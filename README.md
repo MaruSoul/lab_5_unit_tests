@@ -1,5 +1,7 @@
 # Модульні та інтеграційні тести логіки TodoMVC
 
+[![Lab CI](https://github.com/MaruSoul/lab_5_unit_tests/actions/workflows/ci.yml/badge.svg)](https://github.com/MaruSoul/lab_5_unit_tests/actions/workflows/ci.yml)
+
 Лабораторна робота №5 з дисципліни «Забезпечення якості ПП».
 
 Проєкт містить логіку списку завдань у стилі [TodoMVC](https://todomvc.com/examples/react/dist/),
@@ -17,6 +19,11 @@ tests/
   unit/            – 3 модульні тести
   integration/     – 2 інтеграційні тести (у т.ч. з mock-об'єктом localStorage)
 ```
+
+## Continuous Integration
+
+При кожному push і pull request у гілку `main` GitHub Actions автоматично
+встановлює залежності і запускає всі тести (`.github/workflows/ci.yml`).
 
 ## Запуск
 
